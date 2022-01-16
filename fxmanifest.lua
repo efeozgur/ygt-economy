@@ -1,12 +1,10 @@
 fx_version 'adamant'
 
-games { 'gta5' }
+game 'gta5'
 
 client_scripts {
-    "client.lua",
-    "config.lua"
+    'client.lua',
+    'config.lua'
 }
 
-exports {
-    "getValue",
-}
+export 'getValue'
